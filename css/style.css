@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+}
+
+h1 {
+  color: aqua;
+}
+
+img {
+  width: 150px;
+  height: 130px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: brown; */
+  /* background: class.jpg; */
+  background-image: url('class.jpg');
+}
+
+tr{
+  padding-left: 6px;
+}
