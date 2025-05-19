@@ -1,0 +1,84 @@
+.main-container {
+  /* background-color: black; */
+  color: white;
+  height: full;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pad {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  background-color: white;
+  color: black;
+  width: 60%;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.right {
+  background-color: darkblue;
+  color: white;
+  width: 40%;
+  height: auto;
+}
+#namehead {
+  font-size: 20px;
+  margin-top: 5rem;
+}
+.title {
+  color: #6464e9;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 30rem;
+}
+
+.link a {
+  color: #6464e9;
+  text-decoration: none;
+}
+.summary {
+  font-size: 15px;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+}
+.summary-text{
+font-size: 13px;
+}
+.experience {
+  font-size: 15px;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+}
+.jobrole{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company span{
+color: #6464e9;
+}
+.rating{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6464e9;
+}
