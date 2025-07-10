@@ -1,0 +1,130 @@
+.main-container {
+  /* background-color: black; */
+  color: white;
+  height: full;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pad {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  background-color: white;
+  color: black;
+  width: 60%;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.right {
+  background-color: darkblue;
+  color: white;
+  width: 40%;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+#namehead {
+  font-size: 20px;
+  margin-top: 5rem;
+}
+.title {
+  color: #6464e9;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 30rem;
+}
+
+.link a {
+  color: #6464e9;
+  text-decoration: none;
+}
+.summary {
+  font-size: 15px;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+}
+.summary-text{
+font-size: 13px;
+}
+.experience {
+  font-size: 15px;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+}
+.jobrole{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company span{
+color: #6464e9;
+}
+.rating{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6464e9;
+}
+.img{ align-content: center;
+
+}
+.skills{ font-size: 10px;
+  margin-top: 1rem;
+  padding-top: 20px;
+
+}
+.skii{ font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  max-width: 2%;
+}
+
+.acheive{ font-size: 10px;
+  margin-top: 1rem;
+  padding-top: 20px;
+
+}
+
+.job{  padding-right: 210rem;
+
+}
+
+.strengths { font-size: 12px; padding-top: 2rem;
+}
+.dot{
+  border: solid;
+  background-color: white;
+  width: 2px;
+  height: 2px;
+  border-radius: 50px;
+}
+
+.skill-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  width: 120px;
+  
+}
