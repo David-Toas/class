@@ -1,53 +1,62 @@
-.test{
-    position: relative;
+.test {
+  position: relative;
 }
 
 img {
-    max-width: 10%;
-    height: auto;
+  max-width: 10%;
+  height: auto;
 }
 
-img { 
-  float: left; 
-  margin-right: 10px; 
-} 
- 
-/* Clearing floats */ 
-.container::after { 
-  content: ""; 
-  display: block; 
-  clear: both; 
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+@keyframes slide-in {
+  img {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+/* Clearing floats */
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: #f0f0f0; */
-     /* background-image: linear-gradient(to top, #ff0000, #0000ff);  */
-     background-image: radial-gradient(circle at center, #00ff00, #ffffff); 
-    position: fixed;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #f0f0f0; */
+  /* background-image: linear-gradient(to top, #ff0000, #0000ff);  */
+  background-image: radial-gradient(circle at center, #00ff00, #ffffff);
+  position: fixed;
+  width: 100%;
 }
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
-    gap: 20px;
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 20px;
 }
 nav a {
-    text-decoration: none;
-    color: black
+  text-decoration: none;
+  color: black;
 }
 nav a:hover {
-    color: #ff0000; /* Change to your desired hover color */
-    text-decoration: underline; /* Optional: underline on hover */
-    transition-property: color; 
-  transition-duration: 5s; 
+  color: #ff0000; /* Change to your desired hover color */
+  text-decoration: underline; /* Optional: underline on hover */
+  transition-property: color;
+  transition-duration: 5s;
 }
 
-
-
-nav li{
-    list-style: none;
+nav li {
+  list-style: none;
 }
